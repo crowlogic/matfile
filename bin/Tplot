@@ -1,8 +1,0 @@
-#!/bin/sh
-
-BASEDIR=$(dirname $(readlink -f $0))/..
-CLASSPATH=`cat $BASEDIR/class.path`
-java -ea -Djava.library.path=$BASEDIR -classpath $CLASSPATH:$BASEDIR/target/classes arblib.graphing.plots.TPlot $@
-
-
-
