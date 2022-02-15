@@ -1,0 +1,8 @@
+#!/bin/sh -x
+
+export JAVA_HOME=/usr/lib/jvm/jdk-17
+export BASEDIR=$(dirname $(readlink -f $0))/..
+
+cd $BASEDIR
+
+gcc -O3 -fPIC -shared complex_plot.c arb_wrap.c -I$JAVA_HOME/include -I$JAVA_HOME/include/linux -olibarblib.so -lflint-arb 
