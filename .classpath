@@ -18,7 +18,5 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/usr/share/java/gluegen2.jar"/>
 	<classpathentry kind="lib" path="/usr/share/java/gluegen2-rt.jar"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
