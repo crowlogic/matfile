@@ -34,9 +34,6 @@ import org.apache.commons.math3.util.CombinatoricsUtils;
 import com.sun.jna.Native;
 import com.sun.jna.Pointer;
 
-import matfile.matfile.MiMatrix;
-import matfile.matfile.Writable;
-
 public class Vector extends
                     AbstractBufferedObject implements
                     Writable,

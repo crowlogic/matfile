@@ -1,4 +1,4 @@
-package matfile.matfile;
+package matfile;
 
 public class MiInt64
 {

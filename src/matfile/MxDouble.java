@@ -1,13 +1,9 @@
-package matfile.matfile;
+package matfile;
 
 import java.io.IOException;
 import java.nio.ByteOrder;
 import java.nio.channels.SeekableByteChannel;
 import java.util.Iterator;
-
-import matfile.AbstractBufferedObject;
-import matfile.AbstractMatrix;
-import matfile.DoubleColMatrix;
 
 public class MxDouble extends
                       MxClass

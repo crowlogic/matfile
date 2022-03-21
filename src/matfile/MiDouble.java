@@ -1,15 +1,13 @@
-package matfile.matfile;
+package matfile;
 
 import java.nio.ByteBuffer;
 
-import matfile.Vector;
-
-public class MiFloat extends
-                     MiElement
+public class MiDouble extends
+                      MiElement
 {
   private static final long serialVersionUID = 1L;
   public static final int miDOUBLE = 9;
-  public static final int BYTES = 4;
+  public static final int BYTES = 8;
   final Vector vector;
 
   @Override
@@ -18,13 +16,13 @@ public class MiFloat extends
     return this.vector.getBuffer();
   }
 
-  public MiFloat(ByteBuffer slice)
+  public MiDouble(ByteBuffer slice)
   {
     super(slice);
     this.vector = new Vector(slice);
   }
 
-  public MiFloat(Vector vector)
+  public MiDouble(Vector vector)
   {
     super(vector.getBuffer());
     this.vector = vector;

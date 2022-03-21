@@ -12,7 +12,6 @@ import java.util.function.IntFunction;
 
 import dnl.utils.text.table.TextTable;
 import matfile.io.ThreadLocalNumberFormat;
-import matfile.matfile.NamedWritable;
 
 public abstract class DoubleMatrix extends
                                    AbstractMatrix implements

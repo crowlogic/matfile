@@ -1,11 +1,8 @@
-package matfile.matfile;
+package matfile;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SeekableByteChannel;
-
-import matfile.AbstractBufferedObject;
-import matfile.AbstractMatrix;
 
 public abstract class MxClass extends
                               AbstractBufferedObject

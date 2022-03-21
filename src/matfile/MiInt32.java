@@ -1,4 +1,4 @@
-package matfile.matfile;
+package matfile;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

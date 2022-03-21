@@ -1,9 +1,6 @@
-package matfile.matfile;
+package matfile;
 
 import java.nio.ByteBuffer;
-
-import matfile.AbstractBufferedObject;
-import matfile.BufferUtils;
 
 public class Header extends
                     AbstractBufferedObject

@@ -1,9 +1,7 @@
-package matfile.matfile;
+package matfile;
 
 import java.nio.ByteBuffer;
 import java.nio.ShortBuffer;
-
-import matfile.BufferUtils;
 
 public class MiUInt16 extends
                       MiElement

@@ -1,10 +1,9 @@
-package matfile.matfile;
+package matfile;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.StandardCharsets;
 
-import matfile.BufferUtils;
 import matfile.matfile.exceptions.MatFileException;
 
 public class MiInt8 extends

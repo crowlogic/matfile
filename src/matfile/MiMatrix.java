@@ -1,12 +1,9 @@
-package matfile.matfile;
+package matfile;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SeekableByteChannel;
 import java.util.Iterator;
-
-import matfile.AbstractBufferedObject;
-import matfile.AbstractMatrix;
 
 public class MiMatrix extends
                       MiElement

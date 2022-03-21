@@ -1,4 +1,4 @@
-package matfile.matfile;
+package matfile;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,11 +18,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
-import matfile.AbstractBufferedObject;
-import matfile.BufferUtils;
-import matfile.DoubleColMatrix;
-import matfile.DoubleMatrix;
 
 public class MatFile implements
                      Iterable<MiElement>

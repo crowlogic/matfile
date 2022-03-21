@@ -5,11 +5,6 @@ import java.nio.ByteBuffer;
 import java.util.Comparator;
 
 import matfile.exceptions.FastMathException;
-import matfile.matfile.MiDouble;
-import matfile.matfile.MiInt32;
-import matfile.matfile.MiMatrix;
-import matfile.matfile.MxDouble;
-import matfile.matfile.Writable;
 import matfile.util.AutoArrayList;
 
 public abstract class AbstractMatrix extends

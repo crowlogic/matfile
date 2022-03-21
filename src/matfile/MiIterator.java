@@ -1,11 +1,10 @@
-package matfile.matfile;
+package matfile;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import matfile.BufferUtils;
 import matfile.io.ByteUtils;
 import matfile.matfile.exceptions.MatFileParsingException;
 

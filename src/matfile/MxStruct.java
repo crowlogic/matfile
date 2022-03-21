@@ -1,4 +1,4 @@
-package matfile.matfile;
+package matfile;
 
 import java.io.IOException;
 import java.nio.channels.SeekableByteChannel;

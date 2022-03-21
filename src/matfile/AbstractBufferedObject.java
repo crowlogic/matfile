@@ -8,8 +8,6 @@ import java.nio.channels.SeekableByteChannel;
 import com.sun.jna.Native;
 import com.sun.jna.Pointer;
 
-import matfile.matfile.Writable;
-
 public abstract class AbstractBufferedObject implements
                                              Writable
 {
